@@ -1,28 +1,4 @@
 {
-  "terminal.integrated.defaultProfile.windows": "PowerShell",
-  "terminal.integrated.profiles.windows": {
-    "PowerShell": {
-      "source": "PowerShell",
-      "icon": "terminal-powershell",
-      "env": {
-        "PATH": "${env:PATH};C:\\kotlin\\kotlin-native-windows-x86_64-1.7.10\\bin"
-      }
-    },
-    "Command Prompt": {
-      "path": [
-        "${env:windir}\\Sysnative\\cmd.exe",
-        "${env:windir}\\System32\\cmd.exe"
-      ],
-      "args": [],
-      "icon": "terminal-cmd",
-      "env": {
-        "PATH": "${env:PATH};C:\\kotlin\\kotlin-native-windows-x86_64-1.7.10\\bin"
-      }
-    },
-    "Git Bash": {
-      "source": "Git Bash"
-    }
-  },
   "terminal.integrated.env.windows": {
     "PATH": "${env:PATH};C:\\kotlin\\kotlin-native-windows-x86_64-1.7.10\\bin"
   },

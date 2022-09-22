@@ -1,3 +1,4 @@
 fun main(args: Array<String>) {
-	println("hello world");
+ 	var i = 1;
+	println(i);
 }
